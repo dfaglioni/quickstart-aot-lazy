@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2015", "dom"],
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+
+  "files": [
+    "app/lazy-dummy/lazy-dummy.module.ts",
+    "app/lazy-dummy/lazy-dummy.module.main.ts"
+  ],
+
+  "angularCompilerOptions": {
+   "genDir": ".",
+   "skipMetadataEmit" : true
+ }
+}
