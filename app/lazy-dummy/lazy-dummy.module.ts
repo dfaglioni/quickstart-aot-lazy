@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { LazyDummyComponent } from './lazy-dummy.component';
 import { LazyDummyRoutingModule } from './lazy-dummy-routing.module';
 
 @NgModule({
-  imports: [CommonModule, LazyDummyRoutingModule],
+  imports: [BrowserModule, LazyDummyRoutingModule],
   declarations: [LazyDummyComponent],
   exports: [LazyDummyComponent]
 })
